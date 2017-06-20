@@ -1,0 +1,224 @@
+html{
+	font-family: "Titillium Web", "sans-serif", "Archivo Black";
+	color: #504b4b;
+	cursor: default;
+	font-size: 1em;
+}
+
+/*.wrapper{
+	background: url(../img/studio-site-001.jpg) no-repeat;
+	width: 1500px; 
+	height: 3425px;
+	overflow: visible;
+}
+*/
+a{
+	text-decoration: none;
+	color: #504b4b;
+}
+
+hr{
+	width: 80%;
+}
+
+/* logo+navigation
+============================================ */
+
+header{
+	padding-top: 3%;
+	padding-bottom: 1.8%;
+	line-height: 2.5em;
+	text-align: center;
+}
+
+.logo{
+	font-size: 2.5em;
+	text-transform: capitalize;
+}
+
+.nav li a{
+	font-size: 1.2em;
+	text-transform: capitalize;
+	cursor: inherit;
+}
+
+.nav li:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* slogan block
+================================================ */
+
+.slogan-block{
+	background: url(../img/main-background.png) no-repeat;
+	background-size: cover;
+	padding-top: 15%;
+	padding-bottom: 16%;
+	text-align: center;
+}
+
+.slogan-block h1{
+	font-size: 3.2em;
+	text-transform: capitalize;
+}
+
+.slogan-block p{
+	font-size: 1.25em;
+	padding: 1% 0 2.5% 0;	
+}
+
+.button{
+	font-size: 1.6vw;
+	text-transform: uppercase;
+	padding: 1% 5%;
+	border: 2px #504b4b solid;
+	border-radius: 60px;
+	text-align: center;
+}
+
+.button:hover{
+	color: #fff;
+	background: #504b4b;
+	cursor: pointer;
+}
+
+.button a{
+	color: inherit;
+	cursor: inherit;
+}
+/*  main content
+=============================================  */
+
+.three-article{
+	margin: 7% 0 6% 0;
+	text-align: center;
+}
+
+.img-cup{
+	background: url(../img/cup-icon.png) no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 71px;
+	margin-bottom: 11%;
+}
+
+.img-sped{
+	background: url(../img/sped-icon.png) no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 71px;
+	margin-bottom: 11%;
+}
+
+.img-win{
+	background: url(../img/win-icon.png) no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 71px;
+	margin-bottom: 11%;
+}
+
+.three-article div h3{
+	font-family: "Archivo Black";
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+.three-article div p{
+	margin-top: 11%;
+	line-height: 1.4em;	
+}
+
+.culpa-blok-header{
+	font-family: "Archivo Black";
+	font-size: 2em;
+	text-align: center;
+	margin: 9% 0 2% 0;
+}
+
+.culpa-blok-text{
+	text-align: center;
+}
+
+.img-work{
+	background: url(../img/work-img.png) no-repeat;
+	background-size: cover;
+	height: 383px;
+	margin-top: 8%;
+}
+
+/* recent-work
+======================================== */
+
+.recent-work{
+	font-family: "Archivo Black";
+	font-size: 2em;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.brand{
+	margin-top: 5%;
+	background-color: #F1F1F1;
+	height: 325px;
+	text-align: center;
+	padding-top: 10%;
+	border: 1px #fff solid;
+}
+
+.join{
+	text-align: center;
+	font-family: "Archivo Black";
+	font-size: 2em;
+	margin-top: 10%;
+}
+
+.join-text{
+	text-align: center;
+	margin-top: 3%;
+}
+
+.subscribe-button{
+	margin-top: 4%;
+}
+
+.icons{
+	margin-top: 6%;
+}
+
+.icons i{
+	font-size: 2em;
+	text-align: center;
+}
+
+.icons a i:hover{
+	color: #55acef;
+	cursor: pointer;
+}
+
+/*  footer
+===================================== */
+
+footer{
+	margin: 10% 0 0 0;
+	padding: 5% 0;
+	background: #3B3B3B;
+	color: #fff;
+	line-height: 1.5em;
+}
+
+footer a{
+	color: inherit;
+	display: block;
+}
+
+footer h3{
+	font-family: "Archivo Black";
+}
+
+/*@media only screen and (max-width: 1380) {
+	body{
+		font-size: 2em;
+	}	
+}*/
